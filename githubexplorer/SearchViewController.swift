@@ -69,3 +69,8 @@ class SearchViewController: UIViewController {
         ])
     }
 }
+
+
+extension SearchViewController: UITextFieldDelegate {
+    
+}
