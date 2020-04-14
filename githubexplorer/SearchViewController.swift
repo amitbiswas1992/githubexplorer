@@ -28,6 +28,14 @@ class SearchViewController: UIViewController {
         navigationController?.isNavigationBarHidden = true
     }
     
+    @objc  func pushFollowerListVC() {
+        let followerListVC = FollowersListViewController()
+        followerListVC.username = usernameTextField.text
+        followerListVC.title = usernameTextField.text
+        navigationController?.pushViewController(followerListVC, animated: true)
+        
+    }
+    
     func createDismissKeyboardGesture() {
         let tap = UITapGestureRecognizer(target: self.view, action: #selector(UIView.endEditing(_:)))
         view.addGestureRecognizer(tap)
@@ -61,6 +69,7 @@ class SearchViewController: UIViewController {
     
     func configureButton() {
         view.addSubview(callToActionButton)
+        callToActionButton.addTarget(self, action: #selector(pushFollowerListVC), for: .touchUpInside)
         
         NSLayoutConstraint.activate([
             callToActionButton.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor, constant: -50),
@@ -74,7 +83,7 @@ class SearchViewController: UIViewController {
 
 extension SearchViewController: UITextFieldDelegate {
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
-        print("Did tap working")
+        pushFollowerListVC()
         return true
     }
 }
