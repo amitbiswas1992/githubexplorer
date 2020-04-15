@@ -1,2 +1,2 @@
-# Githubexplorer | Find your  followers {style=text-align:center}
+# -> Githubexplorer | Find your  followers <- 
 <center># Githubexplorer | Find your followers</center>
