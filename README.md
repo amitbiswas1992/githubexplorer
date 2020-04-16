@@ -34,12 +34,26 @@ So it is possible to align images! You just have to use inline css to solve the 
 ```swift
 // code away!
 
-let generateProject = project => {
-  let code = [];
-  for (let js = 0; js < project.length; js++) {
-    code.push(js);
-  }
-};
+class graph {
+    var nodeCount : Int
+    var adjlist: [[Int]] = []
+    var visited: [Bool] = []
+    var distance: [Int] = []
+    
+    init(_ nodeCount : Int){
+        self.nodeCount = nodeCount
+        for i in 0...nodeCount {
+            self.adjlist.append ([])
+            self.visited.append(false)
+            self.distance.append(0)
+        }
+    }
+    
+    public func addedge (_ u: Int, _ v: Int) {    // 4 -> 5   5 -> 4
+        adjlist[u].append (v)
+        adjlist[v].append (u)
+    }
+}
 ```
 
 ---
