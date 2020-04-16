@@ -31,6 +31,39 @@ So it is possible to align images! You just have to use inline css to solve the 
 * UINavigationController
 * Custom Alert View
 
+```swift
+// code away!
+
+let generateProject = project => {
+  let code = [];
+  for (let js = 0; js < project.length; js++) {
+    code.push(js);
+  }
+};
+```
+
+---
+
+## Installation
+
+- All the `code` required to get started
+- Images of what it should look like
+
+### Clone
+
+- Clone this repo to your local machine using `https://github.com/fvcproductions/SOMEREPO`
+
+### Setup
+
+- If you want more syntax highlighting, format your code like this:
+
+> update and install this package first
+
+```shell
+$ brew update
+$ brew install fvcproductions
+```
+
 ___
 
 To learn more about me, visit [www.abiswas.me](https://www.abiswas.me) 
