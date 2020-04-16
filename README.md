@@ -23,6 +23,9 @@ So it is possible to align images! You just have to use inline css to solve the 
 * UINavigationController
 * Custom Alert View
 
+<p align = "center"> 
+<img src="githubexplorer/Assets.xcassets/screenshot_1.imageset/screenshot_1.png"  width ="280" height="575" >
+</p>
 
 ## Used technology 
 
