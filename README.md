@@ -1,14 +1,16 @@
 
 <p align = "center"> 
 <img src="githubexplorer/Assets.xcassets/gh-logo.imageset/gh-logo@3x.png"  width ="100" height="100" >
-
- 
+</p>
+<p align="center">
+ <h2> Githubexplorer </h2>
+</p>
+<p align = "center"> 
 <a href="https://github.com/amitbiswas1992/githubexplorer"><img src="https://travis-ci.com/slatedocs/slate.svg?branch=master" alt="Build Status"></a>
 </p>
+
+<p align="center">Githubexplorer help you to keep track your repository and followers .</p>
  
-<div align="center">
- <h1> Githubexplorer | Find your  followers</h1>
-</div>
 
 ## Summary
 
