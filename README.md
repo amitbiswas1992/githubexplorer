@@ -26,4 +26,6 @@ So it is possible to align images! You just have to use inline css to solve the 
 * UINavigationController
 * Custom Alert View
 
-### To learn more about me, visit [www.abiswas.me](https://www.abiswas.me) 
+___
+
+To learn more about me, visit [www.abiswas.me](https://www.abiswas.me) 
