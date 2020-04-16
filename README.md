@@ -2,9 +2,9 @@
 <p align = "center"> 
 <img src="githubexplorer/Assets.xcassets/gh-logo.imageset/gh-logo@3x.png"  width ="100" height="100" >
 </p>
-<p align="center">
+<div align="center">
  <h2> Githubexplorer </h2>
-</p>
+</div>
 <p align = "center"> 
 <a href="https://github.com/amitbiswas1992/githubexplorer"><img src="https://travis-ci.com/slatedocs/slate.svg?branch=master" alt="Build Status"></a>
 </p>
