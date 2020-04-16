@@ -46,7 +46,7 @@ class GFAlertViewController: UIViewController {
     func configureContainerView() {
         view.addSubview(containerView)
         containerView.layer.cornerRadius = 16
-        containerView.layer.borderColor = UIColor.white.cgColor
+        containerView.layer.borderColor = UIColor.systemYellow.cgColor
         containerView.translatesAutoresizingMaskIntoConstraints = false
         containerView.backgroundColor = .systemBackground
         

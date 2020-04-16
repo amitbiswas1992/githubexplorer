@@ -50,7 +50,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     }
     
     func configureNavigationBar() {
-        UINavigationBar.appearance().tintColor = .systemGreen
+        UINavigationBar.appearance().tintColor = .systemBlue
     }
     
     func sceneDidDisconnect(_ scene: UIScene) {
