@@ -70,6 +70,10 @@ class graph {
 
 - Clone this repo to your local machine using `https://github.com/fvcproductions/SOMEREPO`
 
+### Use the command bellow to find the line of code in each swift file 
+
+-   `find . -path ./Pods -prune -o -name '*.swift' -print0 ! -name '/Pods' | xargs -0 wc -l`
+
 ### Setup
 
 - If you want more syntax highlighting, format your code like this:
