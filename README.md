@@ -72,8 +72,10 @@ class graph {
 
 ### Use the command bellow to find the line of code in each swift file 
 
--   `find . -path ./Pods -prune -o -name '*.swift' -print0 ! -name '/Pods' | xargs -0 wc -l`
+  ``` 
+ $  find . -path ./Pods -prune -o -name '*.swift' -print0 ! -name '/Pods' | xargs -0 wc -l`
 
+```
 ### Setup
 
 - If you want more syntax highlighting, format your code like this:
