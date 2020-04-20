@@ -51,49 +51,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5E5887B6244D0A28002CFBE1 /* Extentions */ = {
-			isa = PBXGroup;
-			children = (
-				5ECE4DC2244819B100296089 /* UIViewController+Extention.swift */,
-			);
-			path = Extentions;
-			sourceTree = "<group>";
-		};
-		5E5887B7244D0A5D002CFBE1 /* Custom Views */ = {
-			isa = PBXGroup;
-			children = (
-				5ECE4DC0244810FD00296089 /* GFAlertViewController.swift */,
-				5E721E302441DF33009E1A62 /* GFButton.swift */,
-				5E721E322443AA64009E1A62 /* GFTextField.swift */,
-				5ECE4DBC24480B8D00296089 /* GFTitleLabel.swift */,
-				5ECE4DBE24480DF100296089 /* GFBodyLabel.swift */,
-			);
-			path = "Custom Views";
-			sourceTree = "<group>";
-		};
-		5E5887B8244D0A60002CFBE1 /* Screen */ = {
-			isa = PBXGroup;
-			children = (
-				5EC949F124305218006FF4E1 /* FavoriteListViewController.swift */,
-				5ECE4DB824456D6300296089 /* FollowersListViewController.swift */,
-				5EC949EF243051E1006FF4E1 /* SearchViewController.swift */,
-			);
-			name = Screen;
-			path = "New Group1/Screen";
-			sourceTree = "<group>";
-		};
-		5E5887B9244D0B53002CFBE1 /* Support */ = {
-			isa = PBXGroup;
-			children = (
-				5EC949DB243046E5006FF4E1 /* AppDelegate.swift */,
-				5EC949DD243046E5006FF4E1 /* SceneDelegate.swift */,
-				5EC949E4243046EA006FF4E1 /* Assets.xcassets */,
-				5EC949E6243046EA006FF4E1 /* LaunchScreen.storyboard */,
-				5EC949E9243046EA006FF4E1 /* Info.plist */,
-			);
-			path = Support;
-			sourceTree = "<group>";
-		};
 		5EC949CF243046E5006FF4E1 = {
 			isa = PBXGroup;
 			children = (
@@ -113,12 +70,46 @@
 		5EC949DA243046E5006FF4E1 /* githubexplorer */ = {
 			isa = PBXGroup;
 			children = (
-				5E5887B6244D0A28002CFBE1 /* Extentions */,
-				5E5887B7244D0A5D002CFBE1 /* Custom Views */,
-				5E5887B9244D0B53002CFBE1 /* Support */,
-				5E5887B8244D0A60002CFBE1 /* Screen */,
+				5ED0E3AC244D3B6B00BE12EC /* Extensions */,
+				5ED0E3AB244D3B3900BE12EC /* Custom Views */,
+				5ED0E3AA244D3B0800BE12EC /* Screens */,
+				5EC949DB243046E5006FF4E1 /* AppDelegate.swift */,
+				5EC949DD243046E5006FF4E1 /* SceneDelegate.swift */,
+				5EC949E4243046EA006FF4E1 /* Assets.xcassets */,
+				5EC949E6243046EA006FF4E1 /* LaunchScreen.storyboard */,
+				5EC949E9243046EA006FF4E1 /* Info.plist */,
 			);
 			path = githubexplorer;
+			sourceTree = "<group>";
+		};
+		5ED0E3AA244D3B0800BE12EC /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				5EC949EF243051E1006FF4E1 /* SearchViewController.swift */,
+				5EC949F124305218006FF4E1 /* FavoriteListViewController.swift */,
+				5ECE4DB824456D6300296089 /* FollowersListViewController.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		5ED0E3AB244D3B3900BE12EC /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				5E721E302441DF33009E1A62 /* GFButton.swift */,
+				5E721E322443AA64009E1A62 /* GFTextField.swift */,
+				5ECE4DBC24480B8D00296089 /* GFTitleLabel.swift */,
+				5ECE4DBE24480DF100296089 /* GFBodyLabel.swift */,
+				5ECE4DC0244810FD00296089 /* GFAlertViewController.swift */,
+			);
+			path = "Custom Views";
+			sourceTree = "<group>";
+		};
+		5ED0E3AC244D3B6B00BE12EC /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5ECE4DC2244819B100296089 /* UIViewController+Extention.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
