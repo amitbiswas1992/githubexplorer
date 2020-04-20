@@ -70,22 +70,46 @@
 		5EC949DA243046E5006FF4E1 /* githubexplorer */ = {
 			isa = PBXGroup;
 			children = (
+				5ED0E3AC244D3B6B00BE12EC /* Extensions */,
+				5ED0E3AB244D3B3900BE12EC /* Custom Views */,
+				5ED0E3AA244D3B0800BE12EC /* Screens */,
 				5EC949DB243046E5006FF4E1 /* AppDelegate.swift */,
 				5EC949DD243046E5006FF4E1 /* SceneDelegate.swift */,
 				5EC949E4243046EA006FF4E1 /* Assets.xcassets */,
 				5EC949E6243046EA006FF4E1 /* LaunchScreen.storyboard */,
 				5EC949E9243046EA006FF4E1 /* Info.plist */,
+			);
+			path = githubexplorer;
+			sourceTree = "<group>";
+		};
+		5ED0E3AA244D3B0800BE12EC /* Screens */ = {
+			isa = PBXGroup;
+			children = (
 				5EC949EF243051E1006FF4E1 /* SearchViewController.swift */,
 				5EC949F124305218006FF4E1 /* FavoriteListViewController.swift */,
+				5ECE4DB824456D6300296089 /* FollowersListViewController.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		5ED0E3AB244D3B3900BE12EC /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
 				5E721E302441DF33009E1A62 /* GFButton.swift */,
 				5E721E322443AA64009E1A62 /* GFTextField.swift */,
-				5ECE4DB824456D6300296089 /* FollowersListViewController.swift */,
 				5ECE4DBC24480B8D00296089 /* GFTitleLabel.swift */,
 				5ECE4DBE24480DF100296089 /* GFBodyLabel.swift */,
 				5ECE4DC0244810FD00296089 /* GFAlertViewController.swift */,
+			);
+			path = "Custom Views";
+			sourceTree = "<group>";
+		};
+		5ED0E3AC244D3B6B00BE12EC /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
 				5ECE4DC2244819B100296089 /* UIViewController+Extention.swift */,
 			);
-			path = githubexplorer;
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
