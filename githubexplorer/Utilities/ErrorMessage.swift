@@ -15,36 +15,3 @@ enum ErrorMessage: String {
     case invalidResponse = "Invalid respond from the server. Please try again."
     case invalidData = "The data recieved from the server was invalid"
 }
-
-
-
-
-//completed(nil, "This username created an invalid request")
-//      return
-//  }
-//
-//  let task = URLSession.shared.dataTask(with: url) { (data, response, error) in
-//      if let _ = error {
-//          completed(nil, "Unable to complete request, please check your internet connection")
-//          return
-//      }
-//
-//      guard let response = response as? HTTPURLResponse, response.statusCode == 200 else {
-//          completed(nil, "Invalid respond from the server")
-//          return
-//      }
-//
-//      guard let data = data else {
-//          completed(nil, "The data recieved from the server was invalid")
-//          return
-//      }
-//
-//      do {
-//          let decoder = JSONDecoder()
-//          decoder.keyDecodingStrategy = .convertFromSnakeCase
-//          let followers = try decoder.decode([Followers].self, from: data)
-//          completed(followers, nil)
-//      }
-//      catch {
-//          completed(nil, "The data recieved from the server was invalid")
-//      }
