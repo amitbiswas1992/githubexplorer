@@ -12,7 +12,7 @@ import Foundation
 enum ErrorMessage: String {
     case invalidUsername = "This username created an invalid request"
     case unableToComplete = "Unable to complete request, please check your internet connection"
-    case invalidResponse = "Invalid respond from the server"
+    case invalidResponse = "Invalid respond from the server. Please try again."
     case invalidData = "The data recieved from the server was invalid"
 }
 
