@@ -23,6 +23,9 @@ So it is possible to align images! You just have to use inline css to solve the 
 * UINavigationController
 * Custom Alert View
 
+<p align = "center"> 
+<img src="githubexplorer/Assets.xcassets/screenshot_1.imageset/screenshot_1.png"  width ="280" height="575" >
+</p>
 
 ## Used technology 
 
@@ -67,6 +70,12 @@ class graph {
 
 - Clone this repo to your local machine using `https://github.com/fvcproductions/SOMEREPO`
 
+### Use the command bellow to find the line of code in each swift file 
+
+  ``` 
+ $  find . -path ./Pods -prune -o -name '*.swift' -print0 ! -name '/Pods' | xargs -0 wc -l`
+
+```
 ### Setup
 
 - If you want more syntax highlighting, format your code like this:
