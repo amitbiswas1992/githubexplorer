@@ -12,4 +12,15 @@ class FollowerCell: UICollectionViewCell {
     
     static let reuseID = "FollowerCell"
     
+    let avatarImageView = GFAvatarImageView(frame: .zero)
+    let usernameLabel  = GFTitleLabel(textAlignment: .center, fontSize: 16)
+    
+    override init(frame: CGRect) {
+        super.init(frame: frame)
+        configure()
+    }
+    
+    required init?(coder: NSCoder) {
+        fatalError("Init(Coder:) has not been implemented")
+    }
 }
