@@ -42,6 +42,9 @@ class FollowersListViewController: UIViewController {
     func configureViewController() {
         view.backgroundColor = .systemBackground
         navigationController?.setNavigationBarHidden(false, animated: true)
+        
+        let addButton = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(addButtonTapped))
+              navigationItem.rightBarButtonItem = addButton
     }
     
     func configureCollectionView() {
@@ -94,6 +97,10 @@ class FollowersListViewController: UIViewController {
             self.dataSource.apply(snapshot, animatingDifferences: true)
         }
     }
+    
+      @objc func addButtonTapped() {
+            print("Add button tapped")
+        }
 }
 
 extension FollowersListViewController: UICollectionViewDelegate {
